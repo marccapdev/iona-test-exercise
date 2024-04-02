@@ -1,0 +1,10 @@
+@import "~bootstrap/scss/bootstrap";
+// Global Sections
+@import "header";
+@import "page";
+// Pages
+@import "page-home";
+@import "page-single-cat";
+// Components
+@import "breed-selector";
+@import "cat-grid";

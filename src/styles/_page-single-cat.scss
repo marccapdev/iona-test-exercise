@@ -1,0 +1,22 @@
+.cat__image {
+    width: 100%;
+}
+
+.cat__details {
+    @include media-breakpoint-down(md) {
+        margin-top: 20px;
+    }
+}
+
+.cat__origin {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cat__temperament {
+    font-weight: 700;
+}
+
+.cat__description {
+    margin-top: 10px;
+}
